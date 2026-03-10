@@ -1,6 +1,5 @@
 # ========== 黑U兑换机器人 - Colab版 ==========
 # 第一步：安装依赖
-!pip install python-telegram-bot==20.7 nest-asyncio flask pyngrok
 
 # ========== 第二步：完整代码 ==========
 import asyncio
