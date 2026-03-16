@@ -172,14 +172,14 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     elif data == 'agent':
         await query.edit_message_text(
-            "🤝 代理通道\n\n联系客服开通代理权限：@TG86888888",
+            "🤝 代理通道\n\n联系客服开通代理权限：@che3125",
             reply_markup=get_back_keyboard()
         )
 
     elif data == 'support':
         await query.edit_message_text(
             "👨‍💻 客服中心\n\n"
-            "客服：@TG86888888\n"
+            "客服：@che3125\n"
             "在线时间：24/7",
             reply_markup=get_back_keyboard()
         )
@@ -206,7 +206,7 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 f"{RECEIVE_ADDRESS}\n\n"
                 "📤 您的收款地址\n"
                 f"{user_sessions[user_id]['user_address']}\n\n"
-                "✅ 转账后联系客服 @TG86888888"
+                "✅ 转账后联系客服 @che3125"
             )
 
             await query.edit_message_text(
@@ -289,7 +289,7 @@ async def main():
 
     # 启动机器人
     print("🤖 机器人启动中...")
-    print("客服已设置为：@TG86888888")
+    print("客服已设置为：@che3125")
     await application.run_polling()
 
 # ========== 第三步：运行 ==========
